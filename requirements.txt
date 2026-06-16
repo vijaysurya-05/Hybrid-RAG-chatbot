@@ -1,0 +1,14 @@
+streamlit
+PyMuPDF
+langchain
+langchain-core
+langchain-community
+langchain-classic
+langchain-text-splitters
+langchain-chroma
+langchain-huggingface
+langchain-groq
+chromadb
+sentence-transformers
+huggingface-hub
+torch
