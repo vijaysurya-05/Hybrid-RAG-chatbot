@@ -52,7 +52,7 @@ def ask(query,vectorstore,chunks):
         weights=[0.5, 0.5])
     llm = ChatGroq(
         model="llama-3.3-70b-versatile",
-        api_key=Groq(api_key=st.secrets["GROQ_API_KEY"])
+        api_key=st.secrets["GROQ_API_KEY"]
         )
     prompt = ChatPromptTemplate.from_messages([
     (
