@@ -12,4 +12,5 @@ chromadb
 sentence-transformers
 huggingface-hub
 torch
+rank-bm25
 protobuf==3.20.3
